@@ -10,6 +10,12 @@
         "nvueCompiler" : "uni-app",
         "nvueStyleCompiler" : "uni-app",
         "compilerVersion" : 3,
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
         "modules" : {},
         "distribute" : {
             "android" : {
@@ -41,7 +47,8 @@
         "appid" : "",
         "setting" : {
             "urlCheck" : true
-        }
+        },
+        "usingComponents" : true
     },
     "h5" : {
         "router" : {
